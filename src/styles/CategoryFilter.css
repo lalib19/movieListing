@@ -1,0 +1,13 @@
+.Multiselect {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: teal; */
+  }
+
+  .Select {
+    width: 300px
+  }

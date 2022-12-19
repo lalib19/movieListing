@@ -1,0 +1,66 @@
+.Cards__Container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  /* background-color: tomato; */
+}
+
+.Card__container {
+  display: flex;
+  height: 100vh;
+  width: 80vw;
+  /* background-color: blue; */
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.Card {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 200px;
+  background-color:teal;
+  color: white;
+  border-width: 7px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 10px;
+  box-shadow: 8px 8px 9px grey;
+  justify-content: space-around;
+  margin: 20px;
+  padding: 10px;
+  position: relative;
+}
+
+.bar {
+    border-style: solid;
+    border-width: px;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-top: 10px;
+    background-color: red;
+}
+
+.bar span {
+    height: 3px;
+    float: left;
+    background-color: blue;
+    width: 50%
+}
+
+img {
+  height: 30px;
+  /* margin-top: 60px; */
+}
+
+.Delete {
+  position: absolute;
+  top: 10px;
+  right: 10px
+}
+
+.Votes {
+  justify-content: space-around;
+}
